@@ -1,0 +1,7 @@
+baseURL = 'https://sw-saturn.dev/gallery/'
+languageCode = 'ja-jp'
+title = 'Gallery'
+
+[module]
+  [[module.imports]]
+    path = "github.com/nicokaiser/hugo-theme-gallery/v4"
