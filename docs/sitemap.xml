@@ -1,1 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://sw-saturn.dev/gallery/leica-sl2-s/</loc></url><url><loc>https://sw-saturn.dev/gallery/leica-m10p/</loc></url><url><loc>https://sw-saturn.dev/gallery/leica-m240/</loc></url><url><loc>https://sw-saturn.dev/gallery/leica-q/</loc></url><url><loc>https://sw-saturn.dev/gallery/sigma-dp3-merrill/</loc></url><url><loc>https://sw-saturn.dev/gallery/canon-eos-5d-mark-ii/</loc></url><url><loc>https://sw-saturn.dev/gallery/fujifilm-x-e3/</loc></url><url><loc>https://sw-saturn.dev/gallery/nikon-d300/</loc></url><url><loc>https://sw-saturn.dev/gallery/fed-5b/</loc></url><url><loc>https://sw-saturn.dev/gallery/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://sw-saturn.dev/gallery/leica-sl2-s/</loc>
+  </url><url>
+    <loc>https://sw-saturn.dev/gallery/leica-m10p/</loc>
+  </url><url>
+    <loc>https://sw-saturn.dev/gallery/leica-m240/</loc>
+  </url><url>
+    <loc>https://sw-saturn.dev/gallery/leica-q/</loc>
+  </url><url>
+    <loc>https://sw-saturn.dev/gallery/sigma-dp3-merrill/</loc>
+  </url><url>
+    <loc>https://sw-saturn.dev/gallery/canon-eos-5d-mark-ii/</loc>
+  </url><url>
+    <loc>https://sw-saturn.dev/gallery/fujifilm-x-e3/</loc>
+  </url><url>
+    <loc>https://sw-saturn.dev/gallery/nikon-d300/</loc>
+  </url><url>
+    <loc>https://sw-saturn.dev/gallery/fed-5b/</loc>
+  </url><url>
+    <loc>https://sw-saturn.dev/gallery/</loc>
+  </url>
+</urlset>
