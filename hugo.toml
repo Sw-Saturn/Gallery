@@ -1,4 +1,4 @@
-baseURL = 'https://sw-saturn.dev/gallery/'
+baseURL = 'https://gallery.sw-saturn.dev/'
 languageCode = 'ja-jp'
 title = 'Gallery'
 
