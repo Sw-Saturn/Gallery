@@ -15,7 +15,7 @@ resources:
   - src: L1000390.jpg
     title: '&#x1f4cd; Kuwana, Mie'
   - src: 9FAF473C.JPG
-    title: '&#x1f4cd; Kuwana, Mie'
+    title: '&#x1f4cd; Nagoya, Aichi'
   - src: L1002263.JPG
     title: '&#x1f4cd; Shirahama, Wakayama'
   - src: L1002476.JPG
