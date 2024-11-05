@@ -32,4 +32,8 @@ resources:
     title: '&#x1f4cd; Minamisaku, Nagano'
   - src: L1000229.JPG
     title: '&#x1f4cd; Chiyoda, Tokyo'
+  - src: L1050055.JPG
+    title: ''
+  - src: L1040514.jpg
+    title: '&#x1f4cd; Morioka, Iwate'
 ---

@@ -14,4 +14,6 @@ resources:
     title: '&#x1f4cd; Shinagawa, Tokyo'
   - src: L1000090.JPG
     title: '&#x1f4cd; Minato, Tokyo'
+  - src: L1000638.jpg
+    title: '&#x1f4cd; Nishi-Tokyo, Tokyo'
 ---
