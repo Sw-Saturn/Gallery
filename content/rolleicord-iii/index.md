@@ -11,7 +11,7 @@ params:
   theme: dark
 resources:
   - src: IMG_7052.JPG
-    title: '&#x1f4cd; Minato-ku, Tokyo'
+    title: '&#x1f4cd; Kanagawa'
   - src: IMG_6963.jpg
     title: '&#x1f4cd; Chuo-ku, Tokyo'
   - src: IMG_6969.jpg
