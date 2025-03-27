@@ -36,4 +36,8 @@ resources:
     title: ''
   - src: L1040514.jpg
     title: '&#x1f4cd; Morioka, Iwate'
+  - src: L1010058.jpg
+    title: '&#x1f4cd; Chuo-ku, Tokyo'
+  - src: L1010160.jpg
+    title: '&#x1f4cd; Aizu-Wakamatsu, Fukushima'
 ---
