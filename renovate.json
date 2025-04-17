@@ -13,8 +13,5 @@
       ],
       "enabled": true
     }
-  ],
-  "postUpdateOptions": [
-    "gomodTidy"
   ]
 }
