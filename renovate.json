@@ -1,11 +1,19 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base"],
-  "ignorePaths": ["exampleSite/**"],
+  "extends": [
+    "config:recommended"
+  ],
+  "ignorePaths": [
+    "exampleSite/**"
+  ],
   "packageRules": [
     {
-      "matchManagers": ["gomod"],
-      "matchDepTypes": ["indirect"],
+      "matchManagers": [
+        "gomod"
+      ],
+      "matchDepTypes": [
+        "indirect"
+      ],
       "enabled": true
     }
   ]
