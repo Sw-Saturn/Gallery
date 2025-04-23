@@ -13,5 +13,18 @@
       ],
       "enabled": true
     }
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": [
+         "^(workflow-templates|\.github\/workflows)\/[^/]+\.ya?ml$",
+         "(^|\/)action\.ya?ml$"
+      ],
+      "matchStrings": [
+        "HUGO_VERSION: (?<currentValue>.*)"
+      ],
+      "datasourceTemplate": "github-releases",
+      "depNameTemplate": "gohugoio/hugo"
+    }
   ]
 }

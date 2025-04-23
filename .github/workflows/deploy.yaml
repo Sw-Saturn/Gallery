@@ -1,0 +1,48 @@
+name: Hugo Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    env:
+      HUGO_CACHEDIR: /tmp/hugo_cache
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'v0.146.5'
+          extended: true    # Use extended version for SCSS/SASS support
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Check build status
+        run: |
+          if [ -d "./public" ]; then
+            echo "✅ Hugo build successful!"
+          else
+            echo "❌ Hugo build failed!"
+            exit 1
+          fi
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        if: github.ref == 'refs/heads/master'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          cname: gallery.sw-saturn.dev
