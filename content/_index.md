@@ -1,5 +1,5 @@
 ---
-description: 駄作を置きまくる場です
+description: These are some of my favourite photos taken
 #lastmod: 2023-07-05
 title: Sw-Saturn's Gallery
 featured_image: martin-martz-wRuhOOaG-Z4-unsplash.jpg # default: first image in this directory
