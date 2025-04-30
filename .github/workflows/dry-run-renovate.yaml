@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - renovate.json
+      - renovate.json5
       - .github/workflows/dry-run-renovate.yaml
 
 jobs:
