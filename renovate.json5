@@ -17,13 +17,14 @@
   "regexManagers": [
     {
       "fileMatch": [
-        "^\.github/workflows/.*\.yaml$"
+        "^\\.github/workflows/.*\\.yaml$"
       ],
       "matchStrings": [
         "hugo-version: (?<currentValue>.*)"
       ],
       "datasourceTemplate": "github-releases",
-      "depNameTemplate": "gohugoio/hugo"
+      "depNameTemplate": "gohugoio/hugo",
+      "extractVersion": "^v(?<version>.*)$"
     }
   ]
 }
