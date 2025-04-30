@@ -17,7 +17,7 @@
   "regexManagers": [
     {
       "fileMatch": [
-        "^\.github/workflows/.*\.yaml$"
+        "^\\.github/workflows/.*\\.yaml$"
       ],
       "matchStrings": [
         "hugo-version: (?<currentValue>.*)"
