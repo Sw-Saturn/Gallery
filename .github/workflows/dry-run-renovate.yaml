@@ -35,4 +35,5 @@ jobs:
           RENOVATE_TOKEN: ${{ github.token }}
           # Use renovate.json in the commit `github.sha`.
           RENOVATE_BASE_BRANCHES: ${{ github.sha }}
+          RENOVATE_CONFIG_FILE: renovate.json
           LOG_LEVEL: debug
