@@ -13,5 +13,17 @@
       ],
       "enabled": true
     }
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": [
+        "^\.github/workflows/.*\.yaml$"
+      ],
+      "matchStrings": [
+        "hugo-version: (?<currentValue>.*)"
+      ],
+      "datasourceTemplate": "github-releases",
+      "depNameTemplate": "gohugoio/hugo"
+    }
   ]
 }
