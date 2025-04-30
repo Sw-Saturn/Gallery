@@ -24,7 +24,7 @@
       ],
       "datasourceTemplate": "github-releases",
       "depNameTemplate": "gohugoio/hugo",
-      "extractVersion": "^v(?<version>.*)$"
+      "versioningTemplate": "regex:^v(?<version>.*)$",
     }
   ]
 }
