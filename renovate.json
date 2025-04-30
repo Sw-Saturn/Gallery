@@ -23,7 +23,8 @@
         "hugo-version: (?<currentValue>.*)"
       ],
       "datasourceTemplate": "github-releases",
-      "depNameTemplate": "gohugoio/hugo"
+      "depNameTemplate": "gohugoio/hugo",
+      "extractVersion": "^v(?<version>.*)$"
     }
   ]
 }
