@@ -24,7 +24,7 @@
       ],
       "datasourceTemplate": "github-releases",
       "depNameTemplate": "gohugoio/hugo",
-      "versioningTemplate": "semver"
+      "extractVersionTemplate": "{{#if extractVersion}}{{extractVersion}}{{else}}^v?(?<version>.+)${{/if}}"
     }
   ]
 }
