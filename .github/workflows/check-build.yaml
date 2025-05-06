@@ -20,7 +20,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 0.147.0
+          hugo-version: 0.147.2
           extended: true # Use extended version for SCSS/SASS support
 
       - name: Cache Hugo modules
