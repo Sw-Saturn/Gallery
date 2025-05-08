@@ -40,4 +40,12 @@ resources:
     title: '&#x1f4cd; Chuo-ku, Tokyo'
   - src: L1010160.jpg
     title: '&#x1f4cd; Aizu-Wakamatsu, Fukushima'
+  - src: L1010612.jpg
+    title: '&#x1f4cd; Shanghai, China'
+  - src: L1010636.jpg
+    title: '&#x1f4cd; Shanghai, China'
+  - src: L1010718.jpg
+    title: '&#x1f4cd; Shanghai, China'
+  - src: L1010729.jpg
+    title: '&#x1f4cd; Taipei, Taiwan'
 ---
