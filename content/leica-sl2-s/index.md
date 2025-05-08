@@ -45,7 +45,7 @@ resources:
   - src: L1010636.jpg
     title: '&#x1f4cd; Shanghai, China'
   - src: L1010718.jpg
-    title: '&#x1f4cd; Shanghai, China'
+    title: '&#x1f4cd; Taipei, Taiwan'
   - src: L1010729.jpg
     title: '&#x1f4cd; Taipei, Taiwan'
 ---
