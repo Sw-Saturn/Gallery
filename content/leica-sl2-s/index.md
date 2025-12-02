@@ -48,4 +48,6 @@ resources:
     title: '&#x1f4cd; Taipei, Taiwan'
   - src: L1010729.jpg
     title: '&#x1f4cd; Taipei, Taiwan'
+  - src: L1000016.jpg
+    title: '&#x1f4cd; Annaka, Gunma'
 ---
